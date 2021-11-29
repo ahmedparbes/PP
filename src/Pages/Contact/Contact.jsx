@@ -16,8 +16,31 @@ const Contact = () => {
                 <section id="contact font">
 
                     <div data-aos="zoom-in" className="contact-wrapper font ">
+                        <div class="container">
+                            <form target="_blank" action="https://formsubmit.co/dev.parvezmiah@gmail.com" method="POST">
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <input type="text" name="name" class="form-control" placeholder="Full Name" required />
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="email" class="form-control" placeholder="Email Address" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                                </div>
+                                <button
+                                    className="btn btn-primary send-button font" id="submit" type="submit" value="SEND">
+                                    <div className="alt-send-button">
+                                        <i className="fa fa-paper-plane"></i>
+                                        <span className="send-text">SEND</span>
+                                    </div>
 
-
+                                </button>
+                            </form>
+                        </div>
                         {/* <form id="contact-form" className="form-horizontal" role="form">
                             <div className="form-group">
                                 <div className="col-sm-12">
