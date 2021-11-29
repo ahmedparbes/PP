@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './HeaderBanner.css';
 import AOS from 'aos';
+
+import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
 
 const HeaderBanner = () => {
@@ -20,7 +22,7 @@ const HeaderBanner = () => {
                             <p> I am a web developer, especially a React developer. I am fully prepared to take up the challenge under favorable circumstances. I love to solve any coding problem.
 
                             </p>
-                            <button id="resume-button">Download Resume</button>
+                            <a target='_blank' href="https://drive.google.com/file/d/1loJqV2_aBBBnfdHWZbf-QfmTGzgw0kMH/view?usp=sharing"> <Button style={{ borderRadious: '20px' }} variant="success">Download Resume</Button></a>
                         </div>
                         <div data-aos="zoom-in-up" className="half-image">
                             <img src="https://i.ibb.co/hsF0GfL/designer-girl-animate.png" alt="" />
