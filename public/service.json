@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Dentist ",
+        "Price": "12$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com.",
+        "img": "https://i.ibb.co/qrhzMQK/s2.webp"
+    },
+    {
+        "id": "2",
+        "name": "Cardiology",
+        "Price": "22$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com. Our doctors define difficult medical language in easy-to-understand explanations of over 19,000 medical terms.",
+        "img": "https://i.ibb.co/wYCmZDk/s3.webp "
+    },
+    {
+        "id": "3",
+        "name": "Specialist",
+        "Price": "32$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com. Our doctors define difficult medical language in easy-to-understand explanations of over 19,000 medical terms.",
+        "img": "https://i.ibb.co/W5H5s4h/s4.webp"
+    },
+    {
+        "id": "4",
+        "name": "Astrology",
+        "Price": "12$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com. Our doctors define difficult medical language in easy-to-understand explanations of over 19,000 medical terms.",
+        "img": "https://i.ibb.co/PW1hp85/s5.webp"
+    },
+    {
+        "id": "5",
+        "name": "Blood Screening",
+        "Price": "122$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com. Our doctors define difficult medical language in easy-to-understand explanations of over 19,000 medical terms.",
+        "img": "https://i.ibb.co/FnzkpB8/s6.webp"
+    },
+    {
+        "id": "6",
+        "name": "Neoraunatomy",
+        "Price": "122$",
+        "description": "Medical Term (medical dictionary) is the medical terminology for MedicineNet.com. Our doctors define difficult medical language in easy-to-understand explanations of over 19,000 medical terms.",
+        "img": "https://i.ibb.co/gvSp27s/s-1.webp"
+    }
+]

@@ -1,0 +1,63 @@
+.work-together{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.section-this{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.work{
+    background-image: url(https://i.ibb.co/Xyf11n2/44-446900-abstract-shapes-png-page-abstract-shapes-png-transparent-removebg-preview.png);
+    background-repeat: no-repeat;
+        
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y:top;
+    background-size:350px;
+}
+
+@media only screen and (max-width: 688px) {
+    .work-together{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .section-this{
+        margin-top: 100px;
+    }
+
+    
+.section-this{
+    margin-top: 0;
+}
+
+    .work-image img{
+        width: 100%;
+    }
+
+    .work{
+        background-size: 0;
+        margin: 0%;
+        position: relative;
+
+    }
+
+
+
+  }
+
+
+  @media only screen and (min-width:689px) and (max-width: 1200px){
+ 
+    .my-work{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
