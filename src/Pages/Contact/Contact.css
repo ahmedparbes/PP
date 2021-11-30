@@ -53,7 +53,7 @@
   }
   
   .alt-send-button {
-    width: 400px;
+   
     height: 34px;
     transition: all .2s ease-in-out;
   }
@@ -239,9 +239,10 @@
       margin: 0 auto;
     }  
     
-    .direct-contact-container {
-      margin-top: 60px;
-      max-width: 300px;
+    .direct-contact-container ul li {
+      font: 400;
+      font-size: 14px;
+     
     }    
     .social-media-list li {
       height: 60px;
@@ -292,8 +293,8 @@
     
   }
   
-  @media screen and (max-width: 410px) {
+  @media only screen and (max-width: 688px) {
     .send-button {
-      width: 99%;
+      width:100%;
     }
   }

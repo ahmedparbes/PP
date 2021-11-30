@@ -10,8 +10,7 @@ const Contact = () => {
 
             <Container>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <h2 className="font contact-text-header" style={{ marginTop: '40px' }}>Have any Question or want to connect with me?</h2>
-                    <small className="font">Fell free to contact with me</small>
+                    <h2 className="font contact-text-header" style={{ marginTop: '40px' }}>Dont be Shy! <span style={{ color: 'green' }}>Say Hi..</span> </h2>
                 </div>
                 <section id="contact font">
 
@@ -88,7 +87,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <a href="#" target="_blank" className="contact-icon">
-                                        <i className="fa fa-codepen" aria-hidden="true">
+                                        <i className="fa fa-linkedin" aria-hidden="true">
                                         </i></a>
                                 </li>
                                 <li><a href="#" target="_blank" className="contact-icon">

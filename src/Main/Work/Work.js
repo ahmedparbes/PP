@@ -8,10 +8,10 @@ const Work = () => {
     return (
         <div>
             <Container>
-                <h2 className="font text-primary" style={{ textAlign: 'center', fontWeight: '700' }}> ⚒ My Latest Creative Work</h2>
+                <h2 className="font text-primary" style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px' }}> ⚒ My Latest Creative Work</h2>
                 <div className="font work-tab">
                     <div data-aos="fade-up-right" className="single-work">
-                        <img src="https://i.ibb.co/qDzXhC0/image-1.jpg" alt="" />
+                        <img style={{ width: '100%' }} src="https://i.ibb.co/X23Ppb7/babytoys-min.png" alt="" />
                         <div className="technology">
                             <small>HTML</small>
                             <small>CSS</small>
@@ -34,7 +34,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div data-aos="zoom-out-up" className="single-work">
-                        <img src="https://i.ibb.co/s9s5WTT/image-2.jpg" alt="" />
+                        <img style={{ width: '100%' }} src="https://i.ibb.co/fQxQxdc/tr-min.png" alt="" />
                         <div className="technology">
                             <small>HTML</small>
                             <small>CSS</small>
@@ -57,7 +57,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
-                        <img src="https://i.ibb.co/b1d189D/image-3.jpg" alt="" />
+                        <img style={{ width: '100%' }} src="https://i.ibb.co/CbW3B6K/medical-min.png" alt="" />
                         <div className="technology">
                             <small>HTML</small>
                             <small>CSS</small>
@@ -78,7 +78,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
-                        <img src="https://i.ibb.co/b1d189D/image-3.jpg" alt="" />
+                        <img style={{ width: '100%' }} src="https://i.ibb.co/T8d8nt2/Screenshot-1-min.png" alt="" />
                         <div className="technology">
                             <small>HTML</small>
                             <small>CSS</small>
@@ -95,7 +95,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
-                        <img src="https://i.ibb.co/b1d189D/image-3.jpg" alt="" />
+                        <img style={{ width: '100%' }} src="https://i.ibb.co/7SgdYpF/achivebook-min.png" alt="" />
                         <div className="technology">
                             <small>HTML</small>
                             <small>CSS</small>

@@ -43,7 +43,9 @@
 
 .technology small{
     border: 1px solid;
-    background-color: black;
+    border-inline: none;
+    border-bottom: none;
+    background-color: rgb(5, 29, 110);
     color: white;
 
     

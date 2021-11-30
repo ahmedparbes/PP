@@ -1,5 +1,23 @@
+.nav-header-bar{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-color: rgb(219, 214, 214);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
 .nav-bar{
   font-family: 'Rubik', sans-serif;
+  color: white;
 }
 .login-btn  a{
   color: white;
