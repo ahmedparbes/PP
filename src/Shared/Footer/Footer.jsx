@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: 'purple', padding: '20px', color: 'white' }}>
+        <div style={{ backgroundColor: ' black', padding: '20px', color: 'white' }}>
             <footer>
                 {/* <div class="last-section font">
                     <div class="recomonded">
