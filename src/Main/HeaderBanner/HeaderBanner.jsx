@@ -3,7 +3,6 @@ import './HeaderBanner.css';
 import AOS from 'aos';
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
-
 const HeaderBanner = () => {
 
     useEffect(() => {
