@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div>
 
-            {/* <Container>
+            <Container>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                     <h2 className="font contact-text-header" style={{ color: 'white', marginTop: '40px' }}>Dont be Shy! <span style={{ color: 'orange' }}>Say Hi..</span> </h2>
                 </div>
@@ -59,14 +59,8 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <a href="#" target="_blank" className="contact-icon">
-                                        <i className="fa fa-linkedin" aria-hidden="true">
+                                        <i style={{ width: '10px' }} className="fa fa-linkedin" aria-hidden="true">
                                         </i></a>
-                                </li>
-                                <li><a href="#" target="_blank" className="contact-icon">
-                                    <i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                </li>
-                                <li><a href="#" target="_blank" className="contact-icon">
-                                    <i className="fa fa-instagram" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
 
@@ -78,7 +72,7 @@ const Contact = () => {
                 </section>
 
 
-            </Container> */}
+            </Container>
 
         </div>
     );

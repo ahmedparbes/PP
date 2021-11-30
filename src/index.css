@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #111a28;
+overflow-x: hidden;
 }
 
 code {

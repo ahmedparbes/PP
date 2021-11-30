@@ -5,6 +5,7 @@ import './Expertise.css'
 const Expertise = () => {
     return (
         <Container>
+            <h2 className="font" style={{ color: 'orange', marginBottom: '30px' }}>Experience</h2>
             <div className="font expertise">
                 {/* <div class="container">
                 <div class="row"> */}

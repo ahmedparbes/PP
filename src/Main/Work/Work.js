@@ -9,7 +9,7 @@ const Work = () => {
     return (
         <div className="working">
             <Container>
-                <h2 className="font " style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px' }}> ⚒ My Latest Creative Work</h2>
+                <h2 className="font " style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px', color: 'orange' }}> ⚒ My Latest Creative Work</h2>
                 <div className="font work-tab">
                     <div data-aos="fade-up-right" className="single-work">
                         <img style={{ width: '100%' }} src="https://i.ibb.co/X23Ppb7/babytoys-min.png" alt="" />

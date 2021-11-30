@@ -6,7 +6,7 @@ const WorkTogether = () => {
     return (
         <div className="font together">
             <h2 style={{
-                textAlign: "center", fontWeight: '600', color: 'white'
+                textAlign: "center", fontWeight: '600', color: 'orange'
             }} > ➳ Behind the Person</h2>
             < div className="font work" >
                 <Container>

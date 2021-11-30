@@ -29,7 +29,7 @@
 }
 
 .single-work{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -38,13 +38,11 @@
     margin-top: -90px;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
-    
-}
+}   
 
 .technology small{
     border: 1px solid;
-    border-inline: none;
-    border-bottom: none;
+    border-radius: 20px;
     background-color: rgb(5, 29, 110);
     color: white;
 
