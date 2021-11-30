@@ -12,7 +12,7 @@ const MedicalApp = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className="font">
+        <div className="font all-service-bg">
             <Header></Header>
 
             <Container>
@@ -51,17 +51,16 @@ const MedicalApp = () => {
                     </div>
 
                     <div className="projects-half-info">
-                        <h2>Medical Related Site</h2>
+                        <h2 className="project-title">Medical Related Site</h2>
                         <br />
-                        <p>This website is made up of travel-related items. If you want in the afternoon, you can visit this website and book any kind of hotel.</p>
+                        <p>This website is designed to deal with medical-related issues, the website users can order a variety of medical-related services.</p>
                         <h3>Key Features</h3>
+
+                        <br />
                         <li>This is a complete MERN stack website.</li>
                         <li>Firebase is used for the login registration page.</li>
-                        <li>If the user wants, you can book the order and see the booked orders.
-                            The private round system was added.</li>
-                        <li>Many different technologies and frameworks have been used to create the website.</li>
-                        <li>Clean Code</li>
-
+                        <li>If the user wants, you can book the order and see the booked orders.</li>
+                        <li> The private round system was added.</li>
 
                     </div>
                 </div>

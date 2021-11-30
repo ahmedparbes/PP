@@ -12,7 +12,7 @@ const MacBook = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className="font">
+        <div style={{ color: 'white' }} className="font all-all">
             <Header></Header>
             <Container>
                 <div className="projects-details-info">
@@ -51,16 +51,14 @@ const MacBook = () => {
                     </div>
 
                     <div className="projects-half-info">
-                        <h2>MacBook Pro</h2>
+                        <h2 className="project-title">MacBook Pro</h2>
                         <br />
-                        <p>This website is made up of travel-related items. If you want in the afternoon, you can visit this website and book any kind of hotel.</p>
+                        <p>This website is designed to track the shopping cart related accounts look like any e-commerce website.</p>
                         <h3>Key Features</h3>
-                        <li>This is a complete MERN stack website.</li>
-                        <li>Firebase is used for the login registration page.</li>
-                        <li>If the user wants, you can book the order and see the booked orders.
-                            The private round system was added.</li>
-                        <li>Many different technologies and frameworks have been used to create the website.</li>
-                        <li>Clean Code</li>
+                        <li>Website Fully Responsive Mobile Friendly.</li>
+                        <li>You can see how much it costs to place an order through the website.</li>
+                        <li>The shopping cart's full account can be seen.</li>
+                        <li>There are discounts using special promo codes.</li>
 
 
                     </div>

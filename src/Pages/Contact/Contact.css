@@ -89,7 +89,7 @@
   .contact-text {
     font: 400 15px 'Lato';
     letter-spacing: 1.9px;
-    color: rgb(0, 0, 0);
+    color: rgb(233, 233, 233);
   }
   .contact-text-header {
    
@@ -151,13 +151,13 @@
   }
   
   .contact-text a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 0.2s;
   }
   
   .contact-text a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
@@ -215,12 +215,12 @@
   }
   
   .social-media-list li:hover a {
-    color: #000;
+    color: rgb(255, 255, 255);
   }
   
   .copyright {
     font: 200 14px 'Oswald', sans-serif;
-    color: #555;
+    color: rgb(252, 252, 252);
     letter-spacing: 1px;
     text-align: center;
   }

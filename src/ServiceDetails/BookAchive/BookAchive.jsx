@@ -12,7 +12,7 @@ const BookAchive = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className="font">
+        <div style={{ color: 'white' }} className="font all-all">
             <Header></Header>
             <Container>
                 <div className="projects-details-info">
@@ -51,16 +51,14 @@ const BookAchive = () => {
                     </div>
 
                     <div className="projects-half-info">
-                        <h2>Book Archive</h2>
+                        <h2 className="project-title">Book Archive</h2>
                         <br />
-                        <p>This website is made up of travel-related items. If you want in the afternoon, you can visit this website and book any kind of hotel.</p>
-                        <h3>Key Features</h3>
-                        <li>This is a complete MERN stack website.</li>
-                        <li>Firebase is used for the login registration page.</li>
-                        <li>If the user wants, you can book the order and see the booked orders.
-                            The private round system was added.</li>
-                        <li>Many different technologies and frameworks have been used to create the website.</li>
-                        <li>Clean Code</li>
+                        <p>This website has been created using API. Using the website, any visitor will be able to find the book by searching.</p>
+                        <h3 style={{ color: 'orange' }}>Key Features</h3>
+                        <li>This website is fully responsive.</li>
+                        <li>Use the search bar to search and retrieve any type of book.
+                            .</li>
+                        <li>After searching for your favorite books, you can see how many books have been found.</li>
 
 
                     </div>

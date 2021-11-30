@@ -10,7 +10,7 @@ const Contact = () => {
 
             <Container>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <h2 className="font contact-text-header" style={{ marginTop: '40px' }}>Dont be Shy! <span style={{ color: 'green' }}>Say Hi..</span> </h2>
+                    <h2 className="font contact-text-header" style={{ color: 'white', marginTop: '40px' }}>Dont be Shy! <span style={{ color: 'orange' }}>Say Hi..</span> </h2>
                 </div>
                 <section id="contact font">
 

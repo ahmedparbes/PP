@@ -3,6 +3,7 @@ import { Carousel, Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import './BabyToys.css'
 
 const BabyToys = () => {
     const [index, setIndex] = useState(0);
@@ -11,7 +12,7 @@ const BabyToys = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className="font">
+        <div style={{ color: 'white' }} className="font all-all">
             <Header></Header>
             <Container>
                 <div className="projects-details-info">
@@ -42,27 +43,26 @@ const BabyToys = () => {
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        <div className="button-regular" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
-
-                            <a href="https://jerins-parlour-aa7be.web.app/"><Button variant="success">Demo</Button></a>
+                        <div className="details-section-button">    <a href="https://baby-toys.netlify.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-Website-Client"><Button variant="success">Client</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-website-server"><Button variant="success">Server</Button></a>
                         </div>
                     </div>
 
                     <div className="projects-half-info">
-                        <h2>Baby Toys Related Site</h2>
+                        <h2 className="project-title">Baby Toys Related Site</h2>
                         <br />
-                        <p>This website is made up of baby toys items. If you want in the afternoon, you can visit this website and book any kind of hotel.</p>
-                        <h3>Key Features</h3>
+                        <p>This website is related to children's toys, anyone can login or register here and buy any product.</p>
+                        <h3 style={{ color: 'orange' }}>Key Features</h3>
                         <li>This is a complete MERN stack website.</li>
                         <li>Firebase is used for the login registration page.</li>
-                        <li>If the user wants, you can book the order and see the booked orders.
-                            The private round system was added.</li>
-                        <li>Many different technologies and frameworks have been used to create the website.</li>
-                        <li>Clean Code</li>
-
-
+                        <li>If the user wants, you can book the order and see the booked orders.</li>
+                        <li>Contains admin panel.</li>
+                        <li>If the admin wants, he can make another admin.</li>
+                        <li>Order status can be changed.</li>
+                        <li>Order can be confirmed.</li>
+                        <li>Orders can be canceled.</li>
+                        <li>The private round system was added.</li>
                     </div>
                 </div>
             </Container>

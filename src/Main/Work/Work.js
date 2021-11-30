@@ -7,10 +7,10 @@ import './Work.css';
 const Work = () => {
 
     return (
-        <div>
+        <div className="working">
 
             <Container>
-                <h2 className="font text-primary" style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px' }}> ⚒ My Latest Creative Work</h2>
+                <h2 className="font " style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px' }}> ⚒ My Latest Creative Work</h2>
                 <div className="font work-tab">
                     <div data-aos="fade-up-right" className="single-work">
                         <img style={{ width: '100%' }} src="https://i.ibb.co/X23Ppb7/babytoys-min.png" alt="" />
@@ -29,10 +29,10 @@ const Work = () => {
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
-                            <a href="https://jerins-parlour-aa7be.web.app/"><Button variant="success">Demo</Button></a>
+                            <a href="https://baby-toys.netlify.app/"><Button variant="success">Demo</Button></a>
                             <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
                                 <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/toys">Details</Link></span></i></button>
+                                    <span className="font mx-1"><Link to="/toys" style={{ color: "white", textDecoration: 'none' }} >Details</Link></span></i></button>
                         </div>
                     </div>
                     <div data-aos="zoom-out-up" className="single-work">

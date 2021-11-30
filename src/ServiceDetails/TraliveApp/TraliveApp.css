@@ -1,7 +1,21 @@
+.all-service-bg{
+    background-color: #111a28;
+    color: white;
+}
+
 .projects-details-info{
     display: flex;
     margin-top: 80px;
     margin-bottom: 50px;
+}
+
+.button-regular{
+    display: flex;
+    
+}
+.button-regular button{
+    margin-top: 40px;
+    
 }
 
 
@@ -11,7 +25,7 @@
 }
 
 .project-title{
-    color: rgb(159, 0, 207);
+    color: orange;
 }
 
 @media only screen and (max-width: 688px) {

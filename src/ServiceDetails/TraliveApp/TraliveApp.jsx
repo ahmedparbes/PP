@@ -12,7 +12,7 @@ const TraliveApp = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className="font">
+        <div className="font all-service-bg">
             <Header></Header>
             <Container>
                 <div className="projects-details-info">
@@ -43,7 +43,7 @@ const TraliveApp = () => {
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        <div className="button-regular" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
+                        <div className="" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
 
                             <a href="https://jerins-parlour-aa7be.web.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-Website-Client"><Button variant="success">Client</Button></a>
@@ -55,13 +55,15 @@ const TraliveApp = () => {
                         <h2 className="project-title">Tralive App</h2>
                         <br />
                         <p>This website is made up of travel-related items. If you want in the afternoon, you can visit this website and book any kind of hotel.</p>
-                        <h3 style={{ color: 'black', fontWeight: '700', marginTop: '30px', marginBottom: '39px' }}>Key Features</h3>
+                        <h3 style={{ color: 'orange', fontWeight: '700', marginTop: '30px', marginBottom: '39px' }}>Key Features</h3>
                         <li>This is a complete MERN stack website.</li>
                         <li>Firebase is used for the login registration page.</li>
                         <li>If the user wants, you can book the order and see the booked orders.
-                            The private round system was added.</li>
-                        <li>Many different technologies and frameworks have been used to create the website.</li>
-                        <li>Clean Code</li>
+                        </li>
+                        <li>Order status can be changed</li>
+                        <li>Order can be confirmed</li>
+                        <li>Orders can be canceled</li>
+                        <li>The private round system was added.</li>
 
 
                     </div>
