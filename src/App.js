@@ -5,6 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import Experience from './Experience/Experience';
+import Expertise from './Expertise/Expertise';
 import Home from './Main/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import BabyToys from './ServiceDetails/BabyToys/BabyToys';
@@ -25,6 +27,7 @@ function App() {
           <Route path="/medical" element={<MedicalApp />} />
           <Route path="/macbook" element={<MacBook />} />
           <Route path="/book-archive" element={<BookAchive />} />
+          <Route path="/expertise" element={<Expertise />} />
         </Routes>
       </BrowserRouter>,
     </div>

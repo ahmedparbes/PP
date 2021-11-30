@@ -1,4 +1,6 @@
 import React from 'react';
+import Experience from '../../Experience/Experience';
+import Expertise from '../../Expertise/Expertise';
 import Contact from '../../Pages/Contact/Contact';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
@@ -15,6 +17,7 @@ const Home = () => {
             <HeaderBanner></HeaderBanner>
             <Work></Work>
             <WorkTogether></WorkTogether>
+            <Expertise></Expertise>
             <Contact></Contact>
             <Footer></Footer>
         </div>
