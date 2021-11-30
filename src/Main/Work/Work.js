@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 import './Work.css';
 
 const Work = () => {
@@ -29,7 +30,9 @@ const Work = () => {
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
                             <a href="https://jerins-parlour-aa7be.web.app/"><Button variant="success">Demo</Button></a>
-                            <a href="/toys"><Button variant="success">Details</Button></a>
+                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
+                                <i className="fa fa-info-circle" aria-hidden="true">
+                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/toys">Details</Link></span></i></button>
                         </div>
                     </div>
                     <div data-aos="zoom-out-up" className="single-work">
@@ -51,7 +54,9 @@ const Work = () => {
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
 
                             <a href="https://tralive-app.web.app/"><Button variant="success">Demo</Button></a>
-                            <a href="/tralive"><Button variant="success">Details</Button></a>
+                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
+                                <i className="fa fa-info-circle" aria-hidden="true">
+                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/tralive">Details</Link></span></i></button>
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
@@ -71,7 +76,10 @@ const Work = () => {
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
 
                             <a href="https://medical-operation.web.app/"><Button variant="success">Demo</Button></a>
-                            <a href="/medical"><Button variant="success">Details</Button></a>
+
+                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
+                                <i className="fa fa-info-circle" aria-hidden="true">
+                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/medical">Details</Link></span></i></button>
 
                         </div>
                     </div>
@@ -89,7 +97,9 @@ const Work = () => {
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
                             <a href="https://friendly-curie-7d7be1.netlify.app/"><Button variant="success">Demo</Button></a>
-                            <a href="/macbook"><Button variant="success">Details</Button></a>
+                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
+                                <i className="fa fa-info-circle" aria-hidden="true">
+                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/macbook">Details</Link></span></i></button>
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
@@ -108,13 +118,15 @@ const Work = () => {
                             data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
 
                             <a href="https://determined-mcclintock-97d5d4.netlify.app/"><Button variant="success">Demo</Button></a>
-                            <a href="/book-archive"><Button variant="success">Details</Button></a>
+                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
+                                <i className="fa fa-info-circle" aria-hidden="true">
+                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/book-archive">Details</Link></span></i></button>
                         </div>
                     </div>
-                </div>
-            </Container>
+                </div >
+            </Container >
 
-        </div>
+        </div >
     );
 };
 
