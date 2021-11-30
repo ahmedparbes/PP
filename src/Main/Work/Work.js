@@ -69,7 +69,7 @@ const Work = () => {
                             <small>Firebase</small>
                             <small>Bootstrap</small>
                         </div>
-                        <h3>Doctors Portal</h3>
+                        <h3 style={{ marginTop: '8px' }}>Doctors Portal</h3>
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
@@ -91,7 +91,7 @@ const Work = () => {
                             <small>Bootstrap</small>
                             <small>Javascript</small>
                         </div>
-                        <h3>MacBook Pro</h3>
+                        <h3 style={{ marginTop: '8px' }}>MacBook Pro</h3>
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
@@ -111,7 +111,7 @@ const Work = () => {
                             <small>Bootstrap</small>
                             <small>Rest API</small>
                         </div>
-                        <h3>Book Store</h3>
+                        <h3 style={{ marginTop: '8px' }}>Book Store</h3>
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"

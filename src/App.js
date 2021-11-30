@@ -24,7 +24,7 @@ function App() {
           <Route path="/toys" element={<BabyToys />} />
           <Route path="/medical" element={<MedicalApp />} />
           <Route path="/macbook" element={<MacBook />} />
-          <Route path="/medical" element={<BookAchive />} />
+          <Route path="/book-archive" element={<BookAchive />} />
         </Routes>
       </BrowserRouter>,
     </div>

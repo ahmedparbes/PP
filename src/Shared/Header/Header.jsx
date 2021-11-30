@@ -12,7 +12,7 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="px-7 nav-link">
-                            <Link style={{ color: 'white' , fontWeight:'700' }} to="/">Home</Link>
+                            <Link style={{ color: 'white', fontWeight: '700' }} to="/">Home</Link>
                             <Link style={{ color: 'white' }} to="/">Our Team</Link>
                             <Link style={{ color: 'white' }} to="/contact">Contact</Link>
                         </Nav>
