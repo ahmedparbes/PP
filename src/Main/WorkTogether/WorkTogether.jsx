@@ -4,7 +4,7 @@ import './WorkTogether.css'
 
 const WorkTogether = () => {
     return (
-        <div className="font together">
+        <div id="about" className="font together">
             <h2 style={{
                 textAlign: "center", fontWeight: '600', color: 'orange'
             }} > ➳ Behind the Person</h2>
@@ -12,12 +12,13 @@ const WorkTogether = () => {
                 <Container>
                     <div className="work-together">
                         <div style={{ marginLeft: '20px' }}>
-                            <h2 className=" section-this ">Work Together For Success</h2>
+                            <h2 className=" section-this ">Parvez Miah</h2>
                             <br />
-                            <br />
+
                             <p ata-aos="flip-left"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000">I am a web developer especially a MERN stack developer. I look forward to learning more about programming-related new things every day. I like blogging more in my spare time.
+                                <br />
                                 <br />
                                 I also like to engage in a variety of activities during my leisure time, including playing games and hanging out with friends.
                                 <br />

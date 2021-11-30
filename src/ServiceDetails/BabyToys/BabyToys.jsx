@@ -22,7 +22,7 @@ const BabyToys = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/RQgLhWY/toys-1.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -30,7 +30,7 @@ const BabyToys = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/JyjNph7/toys-2.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -38,12 +38,21 @@ const BabyToys = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/H79XmSn/toys-3.png"
+                                    alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    style={{ width: '80%', height: '20%', marginTop: '40px' }}
+                                    className="d-block"
+                                    src="https://i.ibb.co/k4gq9zn/tralive-4.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        <div className="details-section-button">    <a href="https://baby-toys.netlify.app/"><Button variant="success">Demo</Button></a>
+                        <div className="info-button">
+                            <a href="https://baby-toys.netlify.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-Website-Client"><Button variant="success">Client</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-website-server"><Button variant="success">Server</Button></a>
                         </div>

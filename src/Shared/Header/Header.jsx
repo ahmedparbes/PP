@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -12,9 +13,11 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="px-7 nav-link">
-                            <Link style={{ color: 'white', fontWeight: '700' }} to="/">Home</Link>
-                            <Link style={{ color: 'white' }} to="/">Our Team</Link>
-                            <Link style={{ color: 'white' }} to="/contact">Contact</Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/">Home</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#experience">Skill</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#projects">Projects</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#about">About</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#contact">Contact</Nav.Link>
                         </Nav>
                         <Navbar.Text>
                         </Navbar.Text>

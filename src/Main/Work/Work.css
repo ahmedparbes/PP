@@ -48,6 +48,15 @@
 
     
 }
+.button-regular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.button-regular button{
+    margin-left: 10px;
+}
 
 .working{
    

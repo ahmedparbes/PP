@@ -6,7 +6,7 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div id="contact">
 
             <Container>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>

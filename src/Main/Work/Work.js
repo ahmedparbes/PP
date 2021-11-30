@@ -7,7 +7,7 @@ import './Work.css';
 const Work = () => {
 
     return (
-        <div className="working">
+        <div id="projects" className="working">
             <Container>
                 <h2 className="font " style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px', color: 'orange' }}> ⚒ My Latest Creative Work</h2>
                 <div className="font work-tab">
@@ -27,11 +27,9 @@ const Work = () => {
                         <h3>Baby Toys</h3>
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
+                            data-aos-duration="2000" className="button-regular">
                             <a href="https://baby-toys.netlify.app/"><Button variant="success">Demo</Button></a>
-                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
-                                <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link to="/toys" style={{ color: "white", textDecoration: 'none' }} >Details</Link></span></i></button>
+                            <Link to="/toys"><Button variant="success"><i class="fas fa-info-circle"> Details</i></Button></Link>
                         </div>
                     </div>
                     <div data-aos="zoom-out-up" className="single-work">
@@ -50,12 +48,10 @@ const Work = () => {
                         <h3>Travel App</h3>
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
+                            data-aos-duration="2000" className="button-regular">
 
                             <a href="https://tralive-app.web.app/"><Button variant="success">Demo</Button></a>
-                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
-                                <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/tralive">Details</Link></span></i></button>
+                            <Link to="/tralive"><Button variant="success"><i class="fas fa-info-circle"> Details</i></Button></Link>
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
@@ -72,13 +68,11 @@ const Work = () => {
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
+                            data-aos-duration="2000" className="button-regular">
 
                             <a href="https://medical-operation.web.app/"><Button variant="success">Demo</Button></a>
 
-                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
-                                <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/medical">Details</Link></span></i></button>
+                            <Link to="/medical"><Button variant="success"><i class="fas fa-info-circle"> Details</i></Button></Link>
 
                         </div>
                     </div>
@@ -94,11 +88,9 @@ const Work = () => {
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
+                            data-aos-duration="2000" className="button-regular">
                             <a href="https://friendly-curie-7d7be1.netlify.app/"><Button variant="success">Demo</Button></a>
-                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
-                                <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/macbook">Details</Link></span></i></button>
+                            <Link to="/macbook"><Button variant="success"><i class="fas fa-info-circle"> Details</i></Button></Link>
                         </div>
                     </div>
                     <div data-aos="fade-up-left" className="single-work">
@@ -114,12 +106,10 @@ const Work = () => {
 
                         <div data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className="button-regular" style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '6px', padding: '4px' }}>
+                            data-aos-duration="2000" className="button-regular">
 
                             <a href="https://determined-mcclintock-97d5d4.netlify.app/"><Button variant="success">Demo</Button></a>
-                            <button style={{ backgroundColor: 'green', color: 'white', marginRight: '10px' }} className="font">
-                                <i className="fa fa-info-circle" aria-hidden="true">
-                                    <span className="font mx-1"><Link style={{ color: "white", textDecoration: 'none' }} to="/book-archive">Details</Link></span></i></button>
+                            <Link to="/book-archive"><Button variant="success"><i class="fas fa-info-circle"> Details</i></Button></Link>
                         </div>
                     </div>
                 </div >

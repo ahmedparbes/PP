@@ -30,7 +30,7 @@ const TraliveApp = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/WgMKPsY/tralive-2.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -38,12 +38,12 @@ const TraliveApp = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/LYGvQMs/tralive-3.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        <div className="" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
+                        <div className="info-button">
 
                             <a href="https://jerins-parlour-aa7be.web.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Baby-Toys-Website-Client"><Button variant="success">Client</Button></a>

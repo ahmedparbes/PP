@@ -22,7 +22,7 @@ const BookAchive = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/dJcM8sZ/book-1.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -30,20 +30,13 @@ const BookAchive = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/TKWN5rG/book-2.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    style={{ width: '80%', height: '20%', marginTop: '40px' }}
-                                    className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
-                                    alt="Second slide"
-                                />
-                            </Carousel.Item>
+
                         </Carousel>
-                        <div className="button-regular" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
+                        <div className="info-button">
 
                             <a href="https://friendly-curie-7d7be1.netlify.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Mac-Book-Pro-Assainment-5"><Button variant="success">Client</Button></a>

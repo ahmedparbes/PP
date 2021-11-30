@@ -23,7 +23,7 @@ const MedicalApp = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/ypMQRrg/medical-1.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -31,7 +31,7 @@ const MedicalApp = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/ncgWHcB/medical-2.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -39,12 +39,12 @@ const MedicalApp = () => {
                                 <img
                                     style={{ width: '80%', height: '20%', marginTop: '40px' }}
                                     className="d-block"
-                                    src="https://i.ibb.co/fQxQxdc/tr-min.png"
+                                    src="https://i.ibb.co/ZMxYH5P/medical-3.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        <div className="button-regular" style={{ display: 'flex', justifyContent: 'space-around', marginRight: '140px', marginTop: '6px', padding: '4px' }}>
+                        <div className="info-button">
                             <a href="https://determined-mcclintock-97d5d4.netlify.app/"><Button variant="success">Demo</Button></a>
                             <a href="https://github.com/parvez-miah/Book-Achive-Assainment-6"><Button variant="success">Client</Button></a>
                         </div>

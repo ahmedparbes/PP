@@ -5,9 +5,9 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import Experience from './Experience/Experience';
 import Expertise from './Expertise/Expertise';
 import Home from './Main/Home/Home';
+import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import BabyToys from './ServiceDetails/BabyToys/BabyToys';
 import BookAchive from './ServiceDetails/BookAchive/BookAchive';
@@ -28,6 +28,7 @@ function App() {
           <Route path="/macbook" element={<MacBook />} />
           <Route path="/book-archive" element={<BookAchive />} />
           <Route path="/expertise" element={<Expertise />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>,
     </div>
