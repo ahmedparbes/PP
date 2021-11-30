@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div>
 
-            <Container>
+            {/* <Container>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                     <h2 className="font contact-text-header" style={{ color: 'white', marginTop: '40px' }}>Dont be Shy! <span style={{ color: 'orange' }}>Say Hi..</span> </h2>
                 </div>
@@ -40,34 +40,6 @@ const Contact = () => {
                                 </button>
                             </form>
                         </div>
-                        {/* <form id="contact-form" className="form-horizontal" role="form">
-                            <div className="form-group">
-                                <div className="col-sm-12">
-                                    <input type="text" className="form-control font" id="name" placeholder="NAME" name="name" value="" required />
-                                </div>
-                            </div>
-
-                            <div className="form-group">
-                                <div className="col-sm-12">
-                                    <input type="email" className="form-control font" id="email" placeholder="EMAIL" name="email" value="" required />
-                                </div>
-                            </div>
-
-                            <textarea className="form-control font" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-
-                            <button
-                                className="btn btn-primary send-button font" id="submit" type="submit" value="SEND">
-                                <div className="alt-send-button">
-                                    <i className="fa fa-paper-plane"></i>
-                                    <span className="send-text">SEND</span>
-                                </div>
-
-                            </button>
-
-                        </form> */}
-
-
-
                         <div data-aos="fade-up-left" className="direct-contact-container">
 
                             <ul className="contact-list">
@@ -106,7 +78,7 @@ const Contact = () => {
                 </section>
 
 
-            </Container>
+            </Container> */}
 
         </div>
     );

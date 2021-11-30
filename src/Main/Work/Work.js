@@ -8,7 +8,6 @@ const Work = () => {
 
     return (
         <div className="working">
-
             <Container>
                 <h2 className="font " style={{ textAlign: 'center', fontWeight: '700', marginTop: '30px' }}> ⚒ My Latest Creative Work</h2>
                 <div className="font work-tab">
