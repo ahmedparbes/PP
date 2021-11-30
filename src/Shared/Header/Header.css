@@ -1,13 +1,14 @@
 .nav-header-bar{
   background-color: rgb(0, 0, 0);
   color: white;
+  font-weight: 700;
 }
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-color: rgb(219, 214, 214);
+  background-color: rgb(255, 255, 255);
   color: white;
   background-repeat: no-repeat;
   background-position: center;
@@ -16,7 +17,6 @@
 
 
 .nav-bar{
-  font-family: 'Rubik', sans-serif;
   color: white;
 }
 .login-btn  a{
@@ -49,6 +49,7 @@ nav ul li{
   text-decoration: none;
   padding: 10px;
   margin-right: 16px;
+  font-family: 'Rubik', sans-serif;
 }  
 
 .logIn{

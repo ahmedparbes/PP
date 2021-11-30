@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './HeaderBanner.css';
 import AOS from 'aos';
-
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
 
@@ -17,6 +16,7 @@ const HeaderBanner = () => {
             <div class="bannner font">
                 <div className="banner">
                     <Container>
+                    
                         <div className="font banner-container">
                             <div className="half-width" data-aos="fade-right">
                                 <h2 style={{ marginTop: "140px" }}>Hello My name is <span style={{ color: 'red', fontWeight: '700' }}> Parvez</span> </h2>
