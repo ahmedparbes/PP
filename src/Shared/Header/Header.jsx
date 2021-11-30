@@ -18,6 +18,7 @@ const Header = () => {
                             <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#projects">Projects</Nav.Link>
                             <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#about">About</Nav.Link>
                             <Nav.Link style={{ color: 'white' }} as={HashLink} to="/#contact">Contact</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={HashLink} to="/blog">Blog</Nav.Link>
                         </Nav>
                         <Navbar.Text>
                         </Navbar.Text>
