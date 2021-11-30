@@ -25,10 +25,7 @@ const HeaderBanner = () => {
                                 </p>
                                 <div style={{ display: 'flex' }}>
                                     {/* <a target='_blank' href="https://drive.google.com/file/d/1loJqV2_aBBBnfdHWZbf-QfmTGzgw0kMH/view?usp=sharing"> <Button style={{ borderRadious: '20px' }} variant="success"><i class="far fa-save"> Download Resume</i></Button></a> */}
-                                    <button><a target="_blank" style={{ color: 'black', textAlign: 'center', marginTop: '15' }} href="https://drive.google.com/file/d/1loJqV2_aBBBnfdHWZbf-QfmTGzgw0kMH/view?usp=sharing"> <i class="far fa-save"> Download Resume</i></a></button>
-
-
-                                    <Nav.Link style={{ color: 'white', border: '1px solid blue', marginTop: '-15', marginLeft: '10px', padding: '10px', backgroundColor: 'blue' }} as={HashLink} to="/#about">About</Nav.Link>
+                                    <button style={{ borderRadius: '10px', backgroundColor: 'blue', padding: '4px 6px' }}><a target="_blank" style={{ color: 'white', textAlign: 'center', marginTop: '15' }} href="https://drive.google.com/file/d/1loJqV2_aBBBnfdHWZbf-QfmTGzgw0kMH/view?usp=sharing"> <i class="far fa-save"> Download Resume</i></a></button>
                                 </div>
                             </div>
                             <div data-aos="zoom-in-up" className="half-image">
